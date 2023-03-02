@@ -187,16 +187,3 @@ class _ApiTaskScreenState extends State<ApiTaskScreen> {
     }
   }
 }
-
-// body: characterModal == null
-//     ? const Center(child: CircularProgressIndicator())
-//     : ListView.separated(
-//         itemCount: characterModal!.results!.length,
-//         separatorBuilder: (context, index) => const SizedBox(height: 15),
-//         itemBuilder: (context, index) => ListTile(
-//           tileColor: Colors.green,
-//           leading: Image.network(characterModal!.results![index].image!),
-//           title: Text(characterModal!.results![index].name!),
-//           subtitle: Text(characterModal!.results![index].status!),
-//         ),
-//       ),
