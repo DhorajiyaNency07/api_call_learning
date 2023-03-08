@@ -104,22 +104,27 @@ class _CharacterListScreenState extends State<CharacterListScreen> {
                       break;
                     case 'Edit':
                       if (character != null) {
-                        final editedCharacter = character;
-                        // final editedCharacter = character(
-                        //   name: nameController.text,
-                        //   status: statusController.text,
-                        //   species: speciesController.text,
-                        //   type: typeController.text,
-                        // );
-                        try {
-                          await ApiService.updateCharacter(editedCharacter);
-                          setState(() {
-                            final index = _characters.indexOf(character);
-                            _characters[index] = editedCharacter;
-                          });
-                          Navigator.pop(context);
-                        } catch (e) {
-                          print(e);
+                        if (nameController.text.isNotEmpty &&
+                            statusController.text.isNotEmpty &&
+                            speciesController.text.isNotEmpty &&
+                            typeController.text.isNotEmpty) {
+                          final editedCharacter = Character(
+                            id: character.id,
+                            name: nameController.text,
+                            status: statusController.text,
+                            species: speciesController.text,
+                            type: typeController.text,
+                          );
+                          try {
+                            await ApiService.updateCharacter(editedCharacter);
+                            setState(() {
+                              final index = _characters.indexOf(character);
+                              _characters[index] = editedCharacter;
+                            });
+                            Navigator.pop(context);
+                          } catch (e) {
+                            print(e);
+                          }
                         }
                       }
                       break;
@@ -194,6 +199,7 @@ class _CharacterListScreenState extends State<CharacterListScreen> {
           const SizedBox(width: 16),
           FloatingActionButton(
             onPressed: () =>
+                // _deleteCharacter(Character(id: 1)),
                 _showDialog('DELETE', character: _characters.first),
             child: const Icon(Icons.delete),
           ),
