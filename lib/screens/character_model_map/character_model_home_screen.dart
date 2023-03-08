@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:api_call_learning/model/character_model.dart';
 import 'package:api_call_learning/screens/api_task_all.dart';
-import 'package:api_call_learning/screens/character_model_details_page.dart';
+import 'package:api_call_learning/screens/character_model_map/character_model_details_page.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:http/http.dart';

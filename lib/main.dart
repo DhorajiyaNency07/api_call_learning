@@ -1,5 +1,7 @@
-import 'package:api_call_learning/screens/home_screen.dart';
+import 'package:api_call_learning/screens/post_model_list/home_screen.dart';
 import 'package:flutter/material.dart';
+
+import 'screens/second_character_model/second_character_list_home.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +18,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const HomeScreen(),
+      // home: const HomeScreen(),
+      home: const CharacterListScreen(),
     );
   }
 }
