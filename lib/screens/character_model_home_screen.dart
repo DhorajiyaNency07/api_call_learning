@@ -90,6 +90,8 @@ class _CharacterModelHomeScreenState extends State<CharacterModelHomeScreen> {
     );
   }
 
+
+  // Get
   getPostsAPI() async {
     Client client = http.Client();
     try {
@@ -110,7 +112,8 @@ class _CharacterModelHomeScreenState extends State<CharacterModelHomeScreen> {
     }
   }
 
-  setPostsAPI() async {
+  // Send
+  postPostsAPI() async {
     Client client = http.Client();
     try {
       Response response = await client.post(
@@ -141,6 +144,8 @@ class _CharacterModelHomeScreenState extends State<CharacterModelHomeScreen> {
     }
   }
 
+
+  // update
   putPostsAPI() async {
     Client client = http.Client();
     try {
@@ -168,6 +173,8 @@ class _CharacterModelHomeScreenState extends State<CharacterModelHomeScreen> {
     }
   }
 
+
+// Delete
   deletePostsAPI() async {
     Client client = http.Client();
     try {
