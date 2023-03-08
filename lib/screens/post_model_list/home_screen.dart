@@ -1,5 +1,5 @@
 import 'dart:convert';
-import 'package:api_call_learning/model/post_model.dart';
+import 'package:api_call_learning/models/post_model.dart';
 import 'package:api_call_learning/screens/character_model_map/character_model_home_screen.dart';
 import 'package:api_call_learning/screens/post_model_list/new_screen.dart';
 import 'package:flutter/material.dart';

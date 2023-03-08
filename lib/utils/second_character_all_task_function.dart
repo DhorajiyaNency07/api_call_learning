@@ -1,6 +1,6 @@
 import 'dart:convert';
+import 'package:api_call_learning/models/second_character_model.dart';
 import 'package:http/http.dart' as http;
-import '../model/second_character_model.dart';
 
 class ApiService {
   static const baseUrl = 'https://rickandmortyapi.com/api';

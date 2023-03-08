@@ -1,5 +1,5 @@
-import 'package:api_call_learning/model/character_model.dart';
 import 'package:flutter/material.dart';
+import '../../models/character_model.dart';
 
 class CharacterModelDetailsPage extends StatelessWidget {
   final Results? results;

@@ -1,5 +1,5 @@
+import 'package:api_call_learning/models/second_character_model.dart';
 import 'package:flutter/material.dart';
-import '../../model/second_character_model.dart';
 
 class CharacterDetailScreen extends StatelessWidget {
   final Character character;

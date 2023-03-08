@@ -1,4 +1,4 @@
-import 'package:api_call_learning/model/post_model.dart';
+import 'package:api_call_learning/models/post_model.dart';
 import 'package:flutter/material.dart';
 
 class PostDetailsPage extends StatelessWidget {

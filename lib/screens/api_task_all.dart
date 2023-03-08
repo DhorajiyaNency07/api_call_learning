@@ -1,6 +1,6 @@
 import 'dart:convert';
-import 'package:api_call_learning/model/character_model.dart';
-import 'package:api_call_learning/model/post_model.dart';
+import 'package:api_call_learning/models/character_model.dart';
+import 'package:api_call_learning/models/post_model.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:http/http.dart';

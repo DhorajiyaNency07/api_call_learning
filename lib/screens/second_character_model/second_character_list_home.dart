@@ -1,5 +1,5 @@
+import 'package:api_call_learning/models/second_character_model.dart';
 import 'package:flutter/material.dart';
-import '../../model/second_character_model.dart';
 import '../../utils/second_character_all_task_function.dart';
 import 'second_character_detail_screen.dart';
 
