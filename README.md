@@ -2,6 +2,10 @@
 
 A new Flutter project.
 
+# Output
+
+![gif](https://user-images.githubusercontent.com/109361169/232288918-11d43e6c-4459-4cc4-8ff6-80467cee0c87.gif)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
