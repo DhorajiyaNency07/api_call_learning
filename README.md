@@ -4,7 +4,8 @@ A new Flutter project.
 
 # Output
 
-![gif](https://user-images.githubusercontent.com/109361169/232288918-11d43e6c-4459-4cc4-8ff6-80467cee0c87.gif)
+![gif_2](https://user-images.githubusercontent.com/109361169/232289597-a42974a5-a5ab-4898-952a-c900b2f98229.gif)
+![gif_3](https://user-images.githubusercontent.com/109361169/232289780-65e9ec63-2a1e-4c97-9136-6a18f793253d.gif)
 
 ## Getting Started
 
