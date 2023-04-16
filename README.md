@@ -8,6 +8,12 @@ A new Flutter project.
 ![gif_2](https://user-images.githubusercontent.com/109361169/232289597-a42974a5-a5ab-4898-952a-c900b2f98229.gif)
 ![gif_3](https://user-images.githubusercontent.com/109361169/232289780-65e9ec63-2a1e-4c97-9136-6a18f793253d.gif)
 
+# API
+
+1. https://jsonplaceholder.typicode.com/posts (api-1 screen)
+2. https://rickandmortyapi.com/api/character  (api-2 screen)
+3. https://jsonplaceholder.typicode.com/posts (api all task)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
